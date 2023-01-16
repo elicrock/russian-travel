@@ -1,0 +1,7 @@
+.header__lang-links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  list-style: none;
+}
