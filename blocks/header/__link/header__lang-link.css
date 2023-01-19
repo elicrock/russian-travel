@@ -10,3 +10,10 @@
 .header__lang-link:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+    font-size: calc((100vw - 320px)/(768 - 320) * (24 - 18) + 18px);
+  }
+}

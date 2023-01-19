@@ -12,6 +12,13 @@
 
 @media screen and (max-width: 930px) {
   .intro {
-    padding: 88px 24px;
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+    padding: calc((100vw - 320px)/(768 - 320) * (88 - 64) + 64px) calc((100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
   }
 }

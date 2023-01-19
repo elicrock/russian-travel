@@ -3,7 +3,20 @@
   padding: 0;
   max-width: 640px;
   font-size: 30px;
-  line-height: 1.2;
+  line-height: 120%;
   font-weight: 400;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+    font-size: calc((100vw - 320px)/(768 - 320) * (30 - 16) + 16px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    line-height: 125%;
+  }
 }

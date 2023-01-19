@@ -4,6 +4,12 @@
   list-style: none;
   font-size: 12px;
   font-weight: 700;
-  line-height: 18px;
+  line-height: 150%;
   margin-top: 33px;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    margin-top: 32px;
+  }
 }

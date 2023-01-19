@@ -7,3 +7,17 @@
   gap: 16px;
   padding: 0 48px;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+    padding: 0 calc((100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
+    gap: calc((100vw - 320px)/(768 - 320) * (16 - 12) + 12px);
+  }
+}

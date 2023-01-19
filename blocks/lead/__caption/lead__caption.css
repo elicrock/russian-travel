@@ -11,3 +11,9 @@
     padding-left: 1.5rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding-left: calc((100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
+  }
+}

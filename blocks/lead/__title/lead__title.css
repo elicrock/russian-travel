@@ -11,6 +11,14 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
     font-size: calc((100vw - 320px)/(768 - 320) * (96 - 40) + 40px);
+    margin-bottom: calc((100vw - 320px)/(768 - 320) * (32 - 16) + 16px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    line-height: 110%;
   }
 }

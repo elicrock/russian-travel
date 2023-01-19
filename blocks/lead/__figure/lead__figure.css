@@ -9,3 +9,10 @@
     margin-top: 56px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .lead__figure {
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+    margin-top: calc((100vw - 320px)/(768 - 320) * (56 - 40) + 40px);
+  }
+}
