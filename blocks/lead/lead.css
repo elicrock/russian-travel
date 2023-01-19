@@ -5,3 +5,10 @@
   display: grid;
   justify-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    padding-top: 3rem;
+  }
+}

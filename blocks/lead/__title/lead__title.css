@@ -6,5 +6,11 @@
   font-size: 96px;
   font-weight: 900;
   text-align: center;
-  line-height: 100px;
+  line-height: 104%;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: calc((100vw - 320px)/(768 - 320) * (96 - 40) + 40px);
+  }
 }
