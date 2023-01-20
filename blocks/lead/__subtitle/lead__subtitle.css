@@ -8,10 +8,10 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 590px) {
   .lead__subtitle {
     /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
-    font-size: calc((100vw - 320px)/(768 - 320) * (30 - 16) + 16px);
+    font-size: calc((100vw - 320px)/(590 - 320) * (30 - 16) + 16px);
   }
 }
 

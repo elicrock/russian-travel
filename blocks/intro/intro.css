@@ -7,18 +7,13 @@
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 928px;
-  }
-}
-
-@media screen and (max-width: 930px) {
-  .intro {
-    padding: 24px;
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+    padding: calc((100vw - 768px)/(1024 - 768) * (92 - 88) + 88px) calc((100vw - 768px)/(1024 - 768) * (48 - 24) + 24px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
     padding: calc((100vw - 320px)/(768 - 320) * (88 - 64) + 64px) calc((100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
   }
 }

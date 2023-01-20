@@ -1,18 +1,7 @@
-/* .header {
+.header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   -webkit-align-items: end;
-          align-items: end;
-  margin-top: 1.75rem;
-  padding: 0 3rem;
-} */
-
-.header {
-  display: -webkit-flex;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  display: flex;
-  -webkit-align-items: center;
           align-items: end;
   margin-top: 1.75rem;
   padding: 0 3rem;
