@@ -6,9 +6,31 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .header {
-    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
-    grid-template-columns: minmax(-webkit-min-content, calc((100vw - 320px)/(768 - 320) * (28 - 16) + 16px)) minmax(-webkit-min-content, 484px);
-    grid-template-columns: minmax(min-content, calc((100vw - 320px)/(768 - 320) * (28 - 16) + 16px)) minmax(min-content, 484px);
+  .place {
+    grid-template-columns: minmax(-webkit-min-content, 440px) minmax(-webkit-min-content, 456px);
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(-webkit-min-content, 340px) minmax(-webkit-min-content, 352px);
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .place {
+    grid-template-columns: minmax(-webkit-min-content, -webkit-max-content);
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .place {
+    gap: 32px;
   }
 }

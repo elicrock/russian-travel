@@ -4,3 +4,23 @@
   font-weight: 400;
   line-height: 160%;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+    font-size: calc((100vw - 768px)/(1024 - 768) * (18 - 16) + 16px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 162%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .place__paragraph {
+    padding: 0 calc((100vw - 320px)/(576 - 320) * (21 - 16) + 16px);;
+  }
+}
