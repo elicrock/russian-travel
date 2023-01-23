@@ -1,5 +1,14 @@
 .place {
   display: grid;
+  grid-template-columns: minmax(-webkit-min-content, 460px) minmax(-webkit-min-content, 484px);
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    /* calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+    grid-template-columns: minmax(-webkit-min-content, calc((100vw - 320px)/(768 - 320) * (28 - 16) + 16px)) minmax(-webkit-min-content, 484px);
+    grid-template-columns: minmax(min-content, calc((100vw - 320px)/(768 - 320) * (28 - 16) + 16px)) minmax(min-content, 484px);
+  }
 }
