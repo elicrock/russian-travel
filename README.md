@@ -23,8 +23,17 @@
 
 ---
 
-## Figma
+## Планы по доработке проекта:
+* Добавть favicon.
+* Добавить интерактивные элементы с использованием JavaScript.
+* Перевести сайт на Английский язык.
+
+---
+
+## Ссылки проекта:
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Проект на GitHub](https://github.com/elicrock/how-to-learn)
+* [Сайт на GitHub Pages](https://elicrock.github.io/russian-travel/)
 
 ---
 
@@ -34,5 +43,4 @@
 
 [![Путешествие по России](https://user-images.githubusercontent.com/51034216/214397079-abcb4708-9d16-42f4-aea0-9a6531609544.jpg)](https://elicrock.github.io/russian-travel/)
 
-<summary>Скрыть</summary>
 </details>
