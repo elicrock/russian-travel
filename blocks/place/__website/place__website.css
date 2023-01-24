@@ -1,11 +1,13 @@
 .place__website {
+  display: -ms-grid;
   display: grid;
-  align-self: end;
+  -ms-grid-row-align: end;
+      align-self: end;
   row-gap: 12px;
 }
 
 @media screen and (max-width: 576px) {
   .place__website {
-    padding: 0 calc((100vw - 320px)/(576 - 320) * (21 - 16) + 16px);;
+    padding: 0 calc((100vw - 320px)/(576 - 320) * (21 - 16) + 16px);
   }
 }

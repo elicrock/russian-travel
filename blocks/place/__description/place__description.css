@@ -1,5 +1,7 @@
 .place__description {
+  display: -ms-grid;
   display: grid;
-  align-self: start;
+  -ms-grid-row-align: start;
+      align-self: start;
   row-gap: 26px;
 }

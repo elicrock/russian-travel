@@ -1,4 +1,5 @@
 .header {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   -webkit-align-items: end;
