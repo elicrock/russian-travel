@@ -18,6 +18,7 @@
 @media screen and (max-width: 768px) {
   .places {
     padding: calc((100vw - 576px)/(768 - 576) * (88 - 78) + 78px) calc((100vw - 576px)/(768 - 576) * (24 - 21) + 21px);
+    row-gap: calc((100vw - 320px)/(768 - 320) * (73 - 50) + 50px);
   }
 }
 
@@ -30,5 +31,6 @@
 @media screen and (max-width: 320px) {
   .places {
     padding: 64px 0;
+    row-gap: 50px;
   }
 }
