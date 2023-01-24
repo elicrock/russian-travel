@@ -30,5 +30,6 @@
 
 ## Скриншот
 <details>
+<summary>Показать</summary>
 [![Путешествие по России](https://user-images.githubusercontent.com/51034216/214397079-abcb4708-9d16-42f4-aea0-9a6531609544.jpg)](https://elicrock.github.io/russian-travel/)
 </details>
