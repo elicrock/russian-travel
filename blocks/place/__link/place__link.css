@@ -1,6 +1,7 @@
 .place__link {
-  width: -moz-fit-content;
-  width: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
   font-size: 18px;
   font-weight: 400;
   line-height: 122%;
