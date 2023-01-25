@@ -22,11 +22,10 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 670px) {
   .place {
     grid-template-columns: minmax(-webkit-min-content, -webkit-max-content);
     grid-template-columns: minmax(min-content, max-content);
-    gap: 48px 28px;
   }
 }
 
